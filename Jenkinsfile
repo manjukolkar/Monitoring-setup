@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        PROMETHEUS_CONFIG_DIR = "${WORKSPACE}/prometheus"
+        PROMETHEUS_CONFIG_DIR = "${WORKSPACE}/prometheus" 
     }
 
     stages {
